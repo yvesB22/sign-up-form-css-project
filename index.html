@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form Project</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    
+
+</head>
+
+<body>
+    <div class="main-page">
+
+        <div class="left-panel">
+            <div class="text-legibility-area">
+                <img src="assets/images/logo.png">
+                <h1>ODIN</h1>
+            </div>
+            <p class="image-reference">Photo by <a href="https://unsplash.com/fr/photos/plante-a-feuilles-vertes-en-photographie-en-gros-plan-25xggax4bSA">Halie West</a> on <a href="https://www.unsplash.com">Unsplash</a></p>
+        </div>
+
+        <div class="right-panel">
+
+            <div class="sign-up-p">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form id="sign-up" action="" method="post">
+                <div class="form-content">
+                    <h2>Let's do this!</h2>
+                    <div class="inline">
+                        <div>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name ="last-name" required>
+                        </div>
+
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name ="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="number" id="phone" name ="phone" required>
+                        </div>
+
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name ="password" minlength="6" maxlength="30" required>
+                        </div>
+                        <div>
+                            <label for="password-confirmation">PASSWORD CONFIRMATION</label>
+                            <input type="password" id="password-confirmation" name ="password-confirmation" minlength="6" maxlength="30" required>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+            <div class="create-account">
+                <button type="submit" value="Create Account" form="sign-up">Create Account</button>
+                <p>Already have an account?<a href=""> Log in</a></p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
