@@ -11,10 +11,10 @@ body{
 
 .main-page{
     display: flex;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
-    padding: 2vh 14vw;
+    padding: 2vh 12%;
 }
 
 .left-panel{
@@ -75,9 +75,7 @@ body{
     max-width: 52ch;
     font-weight: 600;
     font-size: 1.1rem;
-    margin-top: 7rem;
-    margin-left: 2rem;
-    margin-bottom: 3rem;
+    margin: 7rem 0 3rem 2rem;
 }
 
 .right-panel form{
